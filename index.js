@@ -1,9 +1,9 @@
 //require
 const Discord = require("discord.js");
-const { prefix, token, giphyToken } = require("./config.json");
+const { prefix, token, giphyToken } = require("./private/config.json");
 const GphApiClient = require("giphy-js-sdk-core");
 const ytdl = require("ytdl-core");
-const mis = require("./fun");
+const mis = require("./private/fun");
 
 // GIPHY API
 const bot = new Discord.Client();
