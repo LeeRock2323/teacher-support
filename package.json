@@ -1,0 +1,28 @@
+{
+    "name": "teacher-support",
+    "version": "1.0.0",
+    "description": "Bot do pomocy nauczycielom w trudnym okresie kwarantanny",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LeeRock2323/teacher-support.git"
+    },
+    "keywords": [
+        "E-learning"
+    ],
+    "author": "Arion",
+    "license": "MIT",
+    "dependencies": {
+        "@discordjs/opus": "^0.1.0",
+        "avconv": "^3.1.0",
+        "discord.js": "^12.1.1",
+        "ffmpeg": "0.0.4",
+        "fluent-ffmpeg": "^2.1.2",
+        "giphy-js-sdk-core": "^1.0.6",
+        "opusscript": "0.0.7",
+        "ytdl-core": "^2.0.1"
+    }
+}
